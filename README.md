@@ -37,16 +37,16 @@ To train the model, run one of the following notebooks:
 
 #### Output:
 
-+ `{modelName}_best_model.pt`: Contains the optimal model weighting parameters.
-+ `{modelName}_normalization_stat.json`: Stores the mean and standard deviation of the training set.
-+ `{modelName}_training_log.csv`: The log file generated during model training.
++ `{ModelName}_best_model.pt`: Contains the optimal model weighting parameters.
++ `{ModelName}_normalization_stat.json`: Stores the mean and standard deviation of the training set.
++ `{ModelName}_training_log.csv`: The log file generated during model training.
 ### Step 3: Prediction
 Run the `Prediction_ResNet18.ipynb` notebook to generate predictions.
 #### Input:
 + `test_info.csv`: Test set.
-+ `{modelName}_best_model.pt`: Trained optimal model.
-+ `{modelName}_normalization_stat.json`: Mean and standard deviation of the training set.
++ `{ModelName}_best_model.pt`: Trained optimal model.
++ `{ModelName}_normalization_stat.json`: Mean and standard deviation of the training set.
 #### Output:
 
-+ `{modelName}_predictions.csv`: Prediction categories for CpGs in the test set.
++ `{ModelName}_predictions.csv`: Prediction categories for CpGs in the test set.
 
