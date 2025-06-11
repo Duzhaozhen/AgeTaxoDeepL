@@ -8,7 +8,6 @@
   <ol>
     <li><a href="#Operating system">Operating system</a></li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#example-demo">Example Demo</a></li>
 
   </ol>
 </details>
@@ -48,7 +47,7 @@ Training_ResNet18.ipynb | Training_MixResNet18.ipynb
 #### Output:
 
 + `{modelName}_best_model.pt`: The optimal model weighting parameters.
-+ `{modelName}_stat.pt`: Mean and standard deviation of the training sets.
++ `{modelName}_normalization_stat.json`: Mean and standard deviation of the training sets.
 ### Step 3: Prediction
 
 ```
@@ -57,13 +56,8 @@ Prediction_ResNet18.ipynb
 #### Input:
 + `test_info.csv`: Test set
 + `{modelName}_best_model.pt`: Trained optimal model
-+ `{modelName}_stat.pt`: Mean and standard deviation of the training sets.
++ `{modelName}_normalization_stat.json`: Mean and standard deviation of the training sets.
 #### Output:
 
 + `{dataName}_best_model.pt` : Prediction categories for the test set CpG
 
-
-<!-- EXAMPLE DEMO -->
-## Example Demo
-
-[Guided Tutorial](example/tutorial.ipynb)
