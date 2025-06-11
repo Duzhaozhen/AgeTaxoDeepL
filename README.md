@@ -28,9 +28,9 @@ Python: torch 2.5.1, pandas 2.2.3, torchvision 0.20.1, numpy 2.0.1, Pillow 11.1.
 
 ### Step 2: Training Models
 Train ResNet18 model or MixResNet18 model
-```
-Training_ResNet18.ipynb | Training_MixResNet18.ipynb
-```
+To train the model, run one of the following notebooks:
+* `Training_ResNet18.ipynb`: Trains the standard ResNet18 model.
+* `Training_MixResNet18.ipynb`: Trains the MixResNet18 model.
 #### Input:
 
 + `training_info.csv & val_info.csv`: Training set and validation set
