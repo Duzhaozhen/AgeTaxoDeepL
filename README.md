@@ -51,5 +51,5 @@ Prediction_ResNet18.ipynb
 + `{modelName}_normalization_stat.json`: Mean and standard deviation of the training sets.
 #### Output:
 
-+ `{dataName}_best_model.pt` : Prediction categories for the test set CpG
++ `{modelName}_predictions.csv` : Prediction categories for the test set CpG
 
