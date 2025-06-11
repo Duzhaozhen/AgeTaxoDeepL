@@ -2,15 +2,6 @@
 Starting out from an EPICv1 DNAm dataset of approximately 3500 whole blood samples and over 811,870 CpGs,we used statistical criteria to define an initial list of CpG categories or taxa, each one characterized by a particular age or non age-dependent DNAm pattern. DNAm scatterplots against age were transformed into 2-dimensional images, and CpGs split into a training and a test set. The 2D images of the training set were then used as input to a deep convolutional neural network (ResNet18) to learn features that distinguish the different patterns from each other. The resulting ResNet18 predictor was then validated on the independent test set. Application of this predictor to originally ‘unclassified’ CpGs allowed re-assignment of these into various categories, thus allowing for an iterative procedure which sequentially assigns more CpGs to various CpG categories. 
 ![Workflow](./Figure/Workflow.png)
 
-<!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
-  <ol>
-    <li><a href="#Operating system">Operating system</a></li>
-    <li><a href="#usage">Usage</a></li>
-
-  </ol>
-</details>
 
 <!-- Operating system -->
 ## Operating system
