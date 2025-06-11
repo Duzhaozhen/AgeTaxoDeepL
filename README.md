@@ -45,8 +45,8 @@ Run the `Prediction_ResNet18.ipynb` notebook to generate predictions.
 #### Input:
 + `test_info.csv`: Test set.
 + `{modelName}_best_model.pt`: Trained optimal model.
-+ `{modelName}_normalization_stat.json`: Mean and standard deviation of the training sets.
++ `{modelName}_normalization_stat.json`: Mean and standard deviation of the training set.
 #### Output:
 
-+ `{modelName}_predictions.csv`: Prediction categories for the test set CpG.
++ `{modelName}_predictions.csv`: Prediction categories for CpGs in the test set.
 
