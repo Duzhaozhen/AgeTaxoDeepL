@@ -38,7 +38,7 @@ To train the model, run one of the following notebooks:
 #### Output:
 
 + `{modelName}_best_model.pt`: Contains the optimal model weighting parameters.
-+ `{modelName}_normalization_stat.json`: Mean and standard deviation of the training set.
++ `{modelName}_normalization_stat.json`: Stores the mean and standard deviation of the training set.
 + `{modelName}_training_log.csv`: The log file generated during model training.
 ### Step 3: Prediction
 
