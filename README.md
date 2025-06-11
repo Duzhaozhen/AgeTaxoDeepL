@@ -48,6 +48,7 @@ Training_ResNet18.ipynb | Training_MixResNet18.ipynb
 
 + `{modelName}_best_model.pt`: The optimal model weighting parameters.
 + `{modelName}_normalization_stat.json`: Mean and standard deviation of the training sets.
++ `{modelName}_training_log.csv`: Log file of model training
 ### Step 3: Prediction
 
 ```
