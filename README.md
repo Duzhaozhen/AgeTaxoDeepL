@@ -41,10 +41,7 @@ To train the model, run one of the following notebooks:
 + `{modelName}_normalization_stat.json`: Stores the mean and standard deviation of the training set.
 + `{modelName}_training_log.csv`: The log file generated during model training.
 ### Step 3: Prediction
-
-```
-Prediction_ResNet18.ipynb
-```
+Run the `Prediction_ResNet18.ipynb` notebook to generate predictions.
 #### Input:
 + `test_info.csv`: Test set.
 + `{modelName}_best_model.pt`: Trained optimal model.
