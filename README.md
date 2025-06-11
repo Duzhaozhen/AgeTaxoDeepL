@@ -24,7 +24,7 @@ Python: torch 2.5.1, pandas 2.2.3, torchvision 0.20.1, numpy 2.0.1, Pillow 11.1.
 + `training_info.csv`: Training set for the ResNet18 model, two columns, the first column is the path of the CpG image and the second column is the corresponding category
 + `val_info.csv`: Validation set of the ResNet18 model in the same format as the training set
 + `test_info.csv`: Test set of the ResNet18 model in the same format as the training set
-+ `CpG_image` : The folder for storing all CpG images
++ `CpG_image`: The folder for storing all CpG images
 
 ### Step 2: Training Models
 Train ResNet18 model or MixResNet18 model
@@ -51,5 +51,5 @@ Prediction_ResNet18.ipynb
 + `{modelName}_normalization_stat.json`: Mean and standard deviation of the training sets.
 #### Output:
 
-+ `{modelName}_predictions.csv` : Prediction categories for the test set CpG
++ `{modelName}_predictions.csv`: Prediction categories for the test set CpG
 
