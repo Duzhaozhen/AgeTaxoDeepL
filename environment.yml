@@ -1,7 +1,7 @@
 name: AgeTaxoDeepL
 channels:
   - pytorch
-  - nvidia # Good channel for CUDA-related packages
+  - nvidia 
   - defaults
 dependencies:
   # == Core Packages ==
@@ -12,3 +12,4 @@ dependencies:
   - pandas=2.2.3
   - numpy=2.0.1
   - pillow=11.1.0
+
