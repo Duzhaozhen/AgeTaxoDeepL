@@ -17,6 +17,22 @@ Starting out from an EPICv1 DNAm dataset of approximately 3500 whole blood sampl
 ## Package requirements
 Python: torch 2.5.1, pandas 2.2.3, torchvision 0.20.1, numpy 2.0.1, Pillow 11.1.0
 
+<!-- Softeware Installation -->
+## Installation
+
+1.  **Clone the repo**
+    ```sh
+    git clone https://github.com/Duzhaozhen/AgeTaxoDeepL.git
+    ```
+
+2.  **Create and activate the conda environment**
+    This command will create a new conda environment named `AgeTaxoDeepL` using the provided `environment.yml` file.
+    ```sh
+    conda env create -f environment.yml
+    conda activate AgeTaxoDeepL
+    ```
+
+
 <!-- Usage -->
 ## Usage
 
