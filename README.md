@@ -23,6 +23,7 @@ Python: torch 2.5.1, pandas 2.2.3, torchvision 0.20.1, numpy 2.0.1, Pillow 11.1.
 1.  **Clone the repo**
     ```sh
     git clone https://github.com/Duzhaozhen/AgeTaxoDeepL.git
+    cd AgeTaxoDeepL
     ```
 
 2.  **Create and activate the conda environment**
