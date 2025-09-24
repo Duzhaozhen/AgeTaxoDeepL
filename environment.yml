@@ -1,0 +1,11 @@
+name: AgeTaxoDeepL
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.12.9
+  - pytorch=2.5.1
+  - torchvision=0.20.1
+  - pandas=2.2.3
+  - numpy=2.0.1
+  - pillow=11.1.0
