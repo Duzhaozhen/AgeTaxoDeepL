@@ -27,6 +27,7 @@ Python: torch 2.5.1, pandas 2.2.3, torchvision 0.20.1, numpy 2.0.1, Pillow 11.1.
     ```
 
 2.  **Create and activate the conda environment**
+
     This command will create a new conda environment named `AgeTaxoDeepL` using the provided `environment.yml` file.
     ```sh
     conda env create -f environment.yml
