@@ -18,7 +18,7 @@ Starting out from an EPICv1 DNAm dataset of approximately 3500 whole blood sampl
 Python: torch 2.5.1, pandas 2.2.3, torchvision 0.20.1, numpy 2.0.1, Pillow 11.1.0
 
 <!-- Softeware Installation -->
-## Installation
+## Installation guide
 
 1.  **Clone the repo**
     ```sh
